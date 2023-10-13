@@ -4,16 +4,89 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     font-family: 'Terminal', sans-serif;
-    line-height: 2.0;
+    line-height: 1.0;
 }
 
-  p {
-    line-height: 2.0;
-  }
-  
-  h1 {
-    line-height: 2.0;
-  }
+p {
+    line-height: 1.5;
+    font-size: 2vw;
+}
+
+a {
+    line-height: 2;
+    font-size: 1.5vw;
+}
+
+b {
+    line-height: 2;
+    font-size: 2vw; 
+}
+
+h1 {
+    line-height: 1.0;
+    font-size: 4vw; 
+}
+
+h2 {
+    line-height: 1.0;
+    font-size: 3vw;
+}
+
+
+#snake1 {
+    margin-top: -100px;
+    width:50%;
+}
+
+#snake2 {
+    margin-top: -100px;
+    width:50%;
+}
+
+#profile-picture {
+    margin-top: -100px;
+}
+
+
+@media (max-width: 5000px) {
+    body {
+        font-size: 10px; 
+    }
+
+    img {
+        max-width: 100%; 
+    }
+
+    p {
+        font-size: 2vw; 
+    }
+    a{
+        font-size: 1.5vw;
+    }
+
+    b {
+        font-size: 2vw; 
+    }
+
+    h1 {
+        font-size: 4vw; 
+    }
+    h2 {
+        font-size: 3vw; 
+    }
+
+    #snake1 {
+        margin-top: -100px;
+        max-width:200%;
+    }
+
+    #snake2 {
+        margin-top: -100px;
+        max-width:200%;
+    }
+
+}
+
 
 #navbar {
     background-color: #000;
@@ -23,11 +96,17 @@ body {
     margin-right: -10px;
 }
 
+@media (max-width: 768px) {
+    #navbar {
+        padding: 10px; 
+    }
+}
+
 #navbar a {
     text-decoration: none;
     color: #fff;
-    margin: 0 25px;
-    font-size: 18px;
+    margin: 0 2vw; 
+    font-size: 2vw; 
 }
 
 desc {
@@ -36,7 +115,7 @@ desc {
     text-align: center;
     font-family: 'Terminal', sans-serif;
     line-height: 2.0;
-    font-size: 15px;
+    font-size: 2vw; 
 }
 
 #navbar a:hover {
@@ -49,32 +128,24 @@ desc {
 }
 
 .profile-container {
+    margin-top:20px;
     display: flex;
     align-items: center; 
     justify-content: center;
   }
 
-#profile-picture {
-    margin-top: -100px;
-}
+  
 
 #profile-picture img {
-    width: 200px; 
-    height: 200px; 
+    width: 80%;
+    height: auto; 
     border-radius: 50%;
     border: 3px solid #ff0000;
-    margin-right: 20px;
-    margin-left: 20px;
+    align-items: center; 
+    justify-content: center;
 }
 
-#snake1 {
-    margin-top: -100px;
-    
-}
 
-#snake2 {
-    margin-top: -100px;
-}
 
 
 #buttons {
@@ -100,7 +171,8 @@ desc {
 .header-icons {
     display: flex;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    margin-top:20px;
 }
 
 .down,
