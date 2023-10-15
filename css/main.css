@@ -12,6 +12,11 @@ p {
     font-size: 2vw;
 }
 
+footer {
+    line-height: 1.5;
+    font-size: 1vw;
+}
+
 a {
     line-height: 2;
     font-size: 1.5vw;
