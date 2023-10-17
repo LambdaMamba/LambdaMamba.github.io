@@ -1,5 +1,5 @@
 body {
-    background-color: #111;
+    background-color: #292929;
     color: #fff;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -111,7 +111,7 @@ h2 {
     text-decoration: none;
     color: #fff;
     margin: 0 1vw; 
-    font-size: 2vw; 
+    font-size: 1.5vw; 
 }
 
 desc {
@@ -142,10 +142,8 @@ desc {
   
 
 #profile-picture img {
-    width: 80%;
+    width: 50%;
     height: auto; 
-    border-radius: 50%;
-    border: 3px solid #ff0000;
     align-items: center; 
     justify-content: center;
 }
